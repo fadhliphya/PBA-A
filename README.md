@@ -1,7 +1,7 @@
 # 🧠 Sentiment Analysis — Google Reviews (Emirates Airlines App)
 
 **👤 Name:** Maureen Ghassani Fadhliphya  
-**📚 NRP:** 5026221193
+**📚 NRP:** 5026221193  
 **📱 App Target:** `com.emirates.ek.android` (Google Play Store)  
 **📆 Week Covered:** 2 & 3  
 **🎯 Focus:** Text Scraping, Preprocessing, EDA, Regex Cleaning, and Feature Extraction (BoW)
@@ -23,11 +23,11 @@ Tujuan utama proyek ini adalah membangun pemahaman dasar analisis sentimen berba
 ## 🗓️ Week 2 – Data Scraping & Preprocessing
 
 ### 🔹 1. Scraping Data
-- Data diambil dari **Google Play Store** menggunakan link:
-
+- Data diambil dari **Google Play Store** menggunakan link:  
+  [`[https://play.google.com/store/apps/details?id=com.emirates.ek.android](https://play.google.com/store/apps/details?id=com.emirates.ek.android&hl=en)`]
 - Proses scraping dilakukan untuk mengumpulkan **ulasan pengguna (Google Reviews)** aplikasi **Emirates Airlines**.  
 - Data disimpan dalam format **CSV** (`emirates_reviews.csv`) berisi kolom:
-- `user`, `rating`, `date`, `review_text`
+  - `user`, `rating`, `date`, `review_text`
 
 ---
 
@@ -67,7 +67,7 @@ Tahap pembersihan data dilakukan untuk menghapus elemen yang tidak relevan pada 
 ## 🗓️ Week 3 – Exploratory Data Analysis, Regex Cleaning, and Feature Extraction
 
 ### 🔹 1. Exploratory Data Analysis (EDA)
-Notebook: `01_WEEK_3_EDA.ipynb`  
+📓 Notebook: `01_WEEK_3_EDA.ipynb`  
 
 **Tujuan:**  
 Melakukan eksplorasi awal terhadap dataset yang telah melalui tahap preprocessing untuk memahami distribusi dan karakteristik teks.
@@ -80,7 +80,7 @@ Melakukan eksplorasi awal terhadap dataset yang telah melalui tahap preprocessin
 **Hasil utama:**
 - Mayoritas review **pendek**, dengan rata-rata kurang dari **20 kata**.  
 - Kata-kata yang paling sering muncul setelah penghapusan stopwords adalah:  
-**easy**, **good**, **use**, **great**, **excellent**, **best**, **service**, **friendly**, **nice**, dan **love**.  
+  **easy**, **good**, **use**, **great**, **excellent**, **best**, **service**, **friendly**, **nice**, dan **love**.  
 - Kata **“easy”** muncul paling sering (> 4000 kali), menunjukkan bahwa pengguna menilai aplikasi **mudah digunakan**.  
 
 **Kesimpulan EDA:**  
@@ -89,7 +89,7 @@ Teks ulasan didominasi oleh kata-kata positif, mengindikasikan pengalaman penggu
 ---
 
 ### 🔹 2. Bag of Words (BoW)
-Notebook: `BoW_WEEK_3.ipynb`  
+📓 Notebook: `BoW_WEEK_3.ipynb`  
 
 **Tujuan:**  
 Mengonversi teks ke bentuk numerik dengan menghitung frekuensi kemunculan setiap kata.
@@ -115,7 +115,7 @@ Pola kata positif mendominasi dataset, menandakan citra baik terhadap aplikasi E
 ---
 
 ### 🔹 3. Regular Expression (Regex)
-Notebook: `REGEX_WEEK_3.ipynb`  
+📓 Notebook: `REGEX_WEEK_3.ipynb`  
 
 **Tujuan:**  
 Melakukan pembersihan lanjutan pada teks menggunakan **Regular Expression (Regex)** untuk memastikan data bersih dari karakter tidak relevan.
@@ -138,27 +138,3 @@ Regex berhasil meningkatkan kualitas teks dengan menghilangkan noise, sehingga d
 ---
 
 ## 📁 Repository Structure
-.
-├── WEEK 2/
-│ ├── 01_Scrapping_Apps_Review_Emirates.ipynb
-│ ├── 02_Stemmer.ipynb
-│ ├── 03_Tokenization.ipynb
-│ └── DATA/
-│ ├── emirates_reviews.csv
-│ ├── emirates_reviews_stopwords.csv
-│ ├── emirates_reviews_stemmed.csv
-│ └── emirates_reviews_tokenized.csv
-│
-├── WEEK 3/
-│ ├── 01_WEEK_3_EDA.ipynb
-│ ├── BoW_WEEK_3.ipynb
-│ ├── REGEX_WEEK_3.ipynb
-│ └── outputs/
-│ ├── eda_top_words.png
-│ └── review_length_distribution.png
-│
-└── README.md
-
----
-
-
