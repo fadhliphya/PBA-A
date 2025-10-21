@@ -24,7 +24,7 @@ Tujuan utama proyek ini adalah membangun pemahaman dasar analisis sentimen berba
 
 ### 🔹 1. Scraping Data
 - Data diambil dari **Google Play Store** menggunakan link:  
-  [`[https://play.google.com/store/apps/details?id=com.emirates.ek.android](https://play.google.com/store/apps/details?id=com.emirates.ek.android&hl=en)`]
+  [https://play.google.com/store/apps/details?id=com.emirates.ek.android&hl=en](https://play.google.com/store/apps/details?id=com.emirates.ek.android&hl=en)
 - Proses scraping dilakukan untuk mengumpulkan **ulasan pengguna (Google Reviews)** aplikasi **Emirates Airlines**.  
 - Data disimpan dalam format **CSV** (`emirates_reviews.csv`) berisi kolom:
   - `user`, `rating`, `date`, `review_text`
