@@ -141,7 +141,6 @@ Regex berhasil meningkatkan kualitas teks dengan menghilangkan noise, sehingga d
 
 ## 📁 Repository Structure
 ```bash
-.
 ├── WEEK 2/
 │   ├── 01_Scrapping_Apps_Review_Emirates.ipynb
 │   ├── 02_Stemmer.ipynb
