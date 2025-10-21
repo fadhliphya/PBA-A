@@ -137,24 +137,27 @@ Regex berhasil meningkatkan kualitas teks dengan menghilangkan noise, sehingga d
 
 ---
 
+---
+
 ## 📁 Repository Structure
+```bash
 .
 ├── WEEK 2/
-│ ├── 01_Scrapping_Apps_Review_Emirates.ipynb
-│ ├── 02_Stemmer.ipynb
-│ ├── 03_Tokenization.ipynb
-│ └── DATA/
-│ ├── emirates_reviews.csv
-│ ├── emirates_reviews_stopwords.csv
-│ ├── emirates_reviews_stemmed.csv
-│ └── emirates_reviews_tokenized.csv
+│   ├── 01_Scrapping_Apps_Review_Emirates.ipynb
+│   ├── 02_Stemmer.ipynb
+│   ├── 03_Tokenization.ipynb
+│   └── DATA/
+│       ├── emirates_reviews.csv
+│       ├── emirates_reviews_stopwords.csv
+│       ├── emirates_reviews_stemmed.csv
+│       └── emirates_reviews_tokenized.csv
 │
 ├── WEEK 3/
-│ ├── 01_WEEK_3_EDA.ipynb
-│ ├── BoW_WEEK_3.ipynb
-│ ├── REGEX_WEEK_3.ipynb
-│ └── outputs/
-│ ├── eda_top_words.png
-│ └── review_length_distribution.png
+│   ├── 01_WEEK_3_EDA.ipynb
+│   ├── BoW_WEEK_3.ipynb
+│   ├── REGEX_WEEK_3.ipynb
+│   └── outputs/
+│       ├── eda_top_words.png
+│       └── review_length_distribution.png
 │
 └── README.md
