@@ -154,7 +154,6 @@ Regex berhasil meningkatkan kualitas teks dengan menghilangkan noise, sehingga d
 ├── WEEK 3/
 │   ├── 01_WEEK_3_EDA.ipynb
 │   ├── BoW_WEEK_3.ipynb
-│   ├── REGEX_WEEK_3.ipynb
-│   └── outputs/
+│   └──  REGEX_WEEK_3.ipynb
 │
 └── README.md
