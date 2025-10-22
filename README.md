@@ -156,7 +156,5 @@ Regex berhasil meningkatkan kualitas teks dengan menghilangkan noise, sehingga d
 │   ├── BoW_WEEK_3.ipynb
 │   ├── REGEX_WEEK_3.ipynb
 │   └── outputs/
-│       ├── eda_top_words.png
-│       └── review_length_distribution.png
 │
 └── README.md
